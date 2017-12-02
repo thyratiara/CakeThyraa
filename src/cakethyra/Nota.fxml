@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="353.0" prefWidth="384.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cakethyra.FXMLNotaController">
+   <children>
+      <ImageView fitHeight="350.0" fitWidth="386.0">
+         <image>
+            <Image url="@../Image/d16e5f3746627eee462de66590a1c9c4.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="119.0" layoutY="14.0" prefHeight="38.0" prefWidth="148.0" style="-fx-background-color: white;" text="     NOTA">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="hasilPesanan" layoutX="44.0" layoutY="77.0" prefHeight="248.0" prefWidth="300.0" />
+   </children>
+</AnchorPane>

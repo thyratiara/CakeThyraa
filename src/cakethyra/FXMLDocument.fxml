@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="733.0" prefWidth="702.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cakethyra.FXMLDocumentController">
+   <children>
+      <Pane layoutX="14.0" layoutY="59.0" prefHeight="662.0" prefWidth="676.0" style="-fx-background-color: pink;">
+         <children>
+            <ImageView fitHeight="480.0" fitWidth="676.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/08a43bf545d859af1660eed49ab458aa--cute-wallpapers-backgrounds-wallpapers_1.jpg" />
+               </image>
+            </ImageView>
+            <Pane layoutX="14.0" layoutY="30.0" prefHeight="134.0" prefWidth="138.0" style="-fx-background-color: black;">
+               <children>
+                  <ImageView fitHeight="112.0" fitWidth="118.0" layoutX="10.0" layoutY="11.0">
+                     <image>
+                        <Image url="@../Image/865377.jpg" />
+                     </image>
+                  </ImageView>
+                  <JFXCheckBox fx:id="kue1" layoutY="6.0" prefHeight="17.0" prefWidth="138.0" style="-fx-background-color: red;" text="Brownies Chezzy" />
+               </children>
+            </Pane>
+            <Pane layoutX="183.0" layoutY="30.0" prefHeight="134.0" prefWidth="132.0" style="-fx-background-color: black;">
+               <children>
+                  <ImageView fitHeight="112.0" fitWidth="118.0" layoutX="7.0" layoutY="11.0">
+                     <image>
+                        <Image url="@../Image/asdf.PNG" />
+                     </image>
+                  </ImageView>
+                  <JFXCheckBox fx:id="kue2" layoutY="6.0" prefHeight="17.0" prefWidth="132.0" style="-fx-background-color: red;" text="Brownies Chocip" />
+               </children>
+            </Pane>
+            <Pane layoutX="354.0" layoutY="30.0" prefHeight="134.0" prefWidth="132.0" style="-fx-background-color: black;">
+               <children>
+                  <ImageView fitHeight="112.0" fitWidth="110.0" layoutX="11.0" layoutY="12.0">
+                     <image>
+                        <Image url="@../Image/dd.PNG" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="74.0" layoutY="128.0" style="-fx-background-color: yellow;" text="Jumlah" />
+                  <JFXCheckBox fx:id="kue3" layoutY="6.0" prefHeight="17.0" prefWidth="132.0" style="-fx-background-color: red;" text="Brownies Berry" />
+               </children>
+            </Pane>
+            <Pane layoutX="519.0" layoutY="30.0" prefHeight="134.0" prefWidth="132.0" style="-fx-background-color: black;">
+               <children>
+                  <ImageView fitHeight="112.0" fitWidth="110.0" layoutX="11.0" layoutY="11.0">
+                     <image>
+                        <Image url="@../Image/hh.PNG" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="hargaMakanan13" layoutX="11.0" layoutY="126.0" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: pink;" text=" 15000" />
+                  <Label layoutX="73.0" layoutY="127.0" style="-fx-background-color: yellow;" text="Jumlah" />
+                  <JFXCheckBox fx:id="kue4" layoutY="6.0" prefHeight="17.0" prefWidth="132.0" style="-fx-background-color: red;" text="Brownies Mocca" />
+               </children>
+            </Pane>
+            <Pane layoutX="17.0" layoutY="208.0" prefHeight="134.0" prefWidth="132.0" style="-fx-background-color: black;">
+               <children>
+                  <ImageView fitHeight="112.0" fitWidth="110.0" layoutX="11.0" layoutY="11.0">
+                     <image>
+                        <Image url="@../Image/sdg.PNG" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="hargaMakanan12" layoutX="10.0" layoutY="126.0" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: pink;" text="30000" />
+                  <JFXCheckBox fx:id="kue5" layoutY="4.0" prefHeight="17.0" prefWidth="132.0" style="-fx-background-color: red;" text="Brownies You" />
+               </children>
+            </Pane>
+            <Pane layoutX="183.0" layoutY="208.0" prefHeight="134.0" prefWidth="132.0" style="-fx-background-color: black;">
+               <children>
+                  <ImageView fitHeight="112.0" fitWidth="118.0" layoutX="7.0" layoutY="11.0">
+                     <image>
+                        <Image url="@../Image/adf.PNG" />
+                     </image>
+                  </ImageView>
+                  <JFXCheckBox fx:id="kue6" layoutY="4.0" prefHeight="17.0" prefWidth="132.0" style="-fx-background-color: red;" text="Kue Sus Keju" />
+               </children>
+            </Pane>
+            <Pane layoutX="354.0" layoutY="208.0" prefHeight="134.0" prefWidth="132.0" style="-fx-background-color: black;">
+               <children>
+                  <ImageView fitHeight="112.0" fitWidth="110.0" layoutX="11.0" layoutY="11.0">
+                     <image>
+                        <Image url="@../Image/kue%20sus.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="hargaMakanan12111" layoutX="11.0" layoutY="127.0" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: pink;" text=" 5000" />
+                  <JFXCheckBox fx:id="kue7" layoutY="4.0" prefHeight="17.0" prefWidth="132.0" style="-fx-background-color: red;" text="Kue Sus Vanilla" />
+               </children>
+            </Pane>
+            <Pane layoutX="519.0" layoutY="208.0" prefHeight="134.0" prefWidth="132.0" style="-fx-background-color: black;">
+               <children>
+                  <ImageView fitHeight="112.0" fitWidth="110.0" layoutX="11.0" layoutY="11.0">
+                     <image>
+                        <Image url="@../Image/sdf.PNG" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="76.0" layoutY="126.0" style="-fx-background-color: yellow;" text="Jumlah" />
+                  <JFXCheckBox fx:id="kue8" layoutY="4.0" prefHeight="17.0" prefWidth="132.0" style="-fx-background-color: red;" text="Donat Kentang" />
+               </children>
+            </Pane>
+            <JFXTextField fx:id="jumlah1" layoutX="83.0" layoutY="174.0" maxWidth="81.0" minWidth="57.0" prefHeight="31.0" prefWidth="57.0" style="-fx-background-color: white;" />
+            <JFXTextField fx:id="jumlah2" layoutX="249.0" layoutY="174.0" maxWidth="81.0" minWidth="57.0" prefHeight="31.0" prefWidth="57.0" style="-fx-background-color: white;" />
+            <JFXTextField fx:id="jumlah3" layoutX="420.0" layoutY="174.0" maxWidth="81.0" minWidth="57.0" prefHeight="31.0" prefWidth="57.0" style="-fx-background-color: white;" />
+            <JFXTextField fx:id="jumlah4" layoutX="585.0" layoutY="174.0" maxWidth="81.0" minWidth="57.0" prefHeight="31.0" prefWidth="57.0" style="-fx-background-color: white;" />
+            <JFXTextField fx:id="jumlah8" layoutX="585.0" layoutY="351.0" maxWidth="81.0" minWidth="57.0" prefHeight="31.0" prefWidth="57.0" style="-fx-background-color: white;" />
+            <JFXTextField fx:id="jumlah7" layoutX="420.0" layoutY="351.0" maxWidth="81.0" minWidth="57.0" prefHeight="31.0" prefWidth="57.0" style="-fx-background-color: white;" />
+            <JFXTextField fx:id="jumlah6" layoutX="249.0" layoutY="351.0" maxWidth="81.0" minWidth="57.0" prefHeight="31.0" prefWidth="57.0" style="-fx-background-color: white;" />
+            <JFXTextField fx:id="jumlah5" layoutX="83.0" layoutY="351.0" maxWidth="81.0" minWidth="57.0" prefHeight="31.0" prefWidth="57.0" style="-fx-background-color: white;" />
+            <Label layoutX="93.0" layoutY="157.0" style="-fx-background-color: yellow;" text="Jumlah" />
+            <Label layoutX="259.0" layoutY="157.0" style="-fx-background-color: yellow;" text="Jumlah" />
+            <Label layoutX="93.0" layoutY="334.0" style="-fx-background-color: yellow;" text="Jumlah" />
+            <Label layoutX="259.0" layoutY="334.0" style="-fx-background-color: yellow;" text="Jumlah" />
+            <Label layoutX="430.0" layoutY="334.0" style="-fx-background-color: yellow;" text="Jumlah" />
+            <Button fx:id="btnCetak1" layoutX="266.0" layoutY="393.0" mnemonicParsing="false" onAction="#Hitung" prefHeight="31.0" prefWidth="145.0" style="-fx-background-color: White;" text="TOTAL BAYAR" />
+            <Line endX="100.0" layoutX="339.0" layoutY="442.0" startX="-100.0" />
+            <JFXTextField fx:id="inAn" layoutX="117.0" layoutY="474.0" style="-fx-background-color: white;" />
+            <RadioButton fx:id="radio1" layoutX="118.0" layoutY="537.0" mnemonicParsing="false" text="Packing" />
+            <RadioButton fx:id="radio2" layoutX="201.0" layoutY="537.0" mnemonicParsing="false" text="On Plate" />
+            <Label fx:id="total" layoutX="307.0" layoutY="447.0" text="TOTAL BAYAR" />
+            <JFXTextField fx:id="jumlahUang" layoutX="119.0" layoutY="587.0" style="-fx-background-color: white;" />
+            <Button fx:id="btnCetak" layoutX="394.0" layoutY="516.0" mnemonicParsing="false" onAction="#CetakPemesan" prefHeight="60.0" prefWidth="185.0" style="-fx-background-color: red;" text="CETAK" />
+            <Label layoutX="27.0" layoutY="481.0" text="Nama Pembeli" />
+            <Label layoutX="27.0" layoutY="594.0" text="Jumlah uang" />
+            <Label fx:id="hargaMakanan" layoutX="17.0" layoutY="157.0" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: pink;" text=" 10000" />
+            <Label fx:id="hargaMakanan1" layoutX="191.0" layoutY="160.0" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: pink;" text="25000" />
+            <Label fx:id="hargaMakanan11" layoutX="365.0" layoutY="157.0" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: pink;" text="15000" />
+            <Label fx:id="hargaMakanan121" layoutX="197.0" layoutY="337.0" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: pink;" text="5000" />
+            <Label fx:id="hargaMakanan1211" layoutX="538.0" layoutY="335.0" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: pink;" text="5000" />
+         </children>
+      </Pane>
+      <Label layoutX="14.0" layoutY="11.0" prefHeight="35.0" prefWidth="185.0" text="THYRA BAKERY">
+         <textFill>
+            <LinearGradient endX="0.6952380952380952" endY="0.6666666666666667" startX="0.5761904761904763" startY="0.7380952380952381">
+               <stops>
+                  <Stop color="#d08181" />
+                  <Stop color="#a82222" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="Berlin Sans FB" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
